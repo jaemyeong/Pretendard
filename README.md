@@ -14,7 +14,7 @@ Pretendard은 [Pretendard](https://cactus.tistory.com/306) 1.2.1 버전 기반�
 ### Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/jaemyeong/Pretendard.git", .upToNextMajor(from: "0.1.0"))
+.package(url: "https://github.com/jaemyeong/Pretendard.git", .upToNextMajor(from: "0.1.1"))
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ Pretendard은 [Pretendard](https://cactus.tistory.com/306) 1.2.1 버전 기반�
 ```swift
 import Pretendard
 
-let font: UIFont? = Pretendard.regular.font(ofSize: 14.0)
+let font: UIFont? = try .pretendardFont(ofSize: 14.0, weight: .regular)
 ```
 
 ## References
