@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# Pretendard
 
-You can use the [editor on GitHub](https://github.com/jaemyeong/Pretendard/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[Pretendard](https://cactus.tistory.com/306) Swift Package 구현체입니다.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Pretendard은 [Pretendard](https://cactus.tistory.com/306) 1.2.1 버전 기반으로 제작되었습니다.
 
-### Markdown
+## Requirements
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Xcode 13.2.1
+- Swift 5.5
 
-```markdown
-Syntax highlighted code block
+## Installation
 
-# Header 1
-## Header 2
-### Header 3
+### Swift Package Manager
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```swift
+.package(url: "https://github.com/jaemyeong/Pretendard.git", .upToNextMajor(from: "0.1.0"))
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Usage
 
-### Jekyll Themes
+```swift
+import Pretendard
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jaemyeong/Pretendard/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+let font: UIFont? = Pretendard.regular.font(ofSize: 14.0)
+```
 
-### Support or Contact
+## References
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [Pretendard](https://cactus.tistory.com/306)
+
+## License
+
+- MIT
+
+## Author
+
+[Jaemyeong Jin](https://github.com/jaemyeong) ([jaemyeong@me.com](mailto:jaemyeong@me.com))
