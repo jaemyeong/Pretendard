@@ -2,19 +2,19 @@
 
 [Pretendard](https://cactus.tistory.com/306) Swift Package 구현체입니다.
 
-Pretendard은 [Pretendard](https://cactus.tistory.com/306) 1.2.1 버전 기반으로 제작되었습니다.
+Pretendard은 [Pretendard](https://cactus.tistory.com/306) 1.3.0 버전 기반으로 제작되었습니다.
 
 ## Requirements
 
-- Xcode 13.2.1
-- Swift 5.5
+- Xcode 13.3.1
+- Swift 5.6
 
 ## Installation
 
 ### Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/jaemyeong/Pretendard.git", .upToNextMajor(from: "0.1.1"))
+.package(url: "https://github.com/jaemyeong/Pretendard.git", .upToNextMajor(from: "0.1.2"))
 ```
 
 ## Usage
