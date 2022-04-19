@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.6
 
 import PackageDescription
 
@@ -19,9 +19,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            name: "ErrorKit",
             url: "https://github.com/jaemyeong/ErrorKit.git",
-            .upToNextMajor(from: "0.1.2")
+            .upToNextMajor(from: "0.1.3")
         )
     ],
     targets: [
