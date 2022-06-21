@@ -6,38 +6,34 @@ let package = Package(
     name: "Pretendard",
     defaultLocalization: "ko",
     platforms: [
-        .macOS(.v10_15),
-        .iOS(.v13)
+        .iOS(.v13),
     ],
     products: [
         .library(
             name: "Pretendard",
             targets: [
-                "Pretendard"
+                "Pretendard",
             ]
-        )
+        ),
     ],
     dependencies: [
-        .package(
-            url: "https://github.com/jaemyeong/ErrorKit.git",
-            .upToNextMajor(from: "0.1.3")
-        )
+        .package(url: "https://github.com/jaemyeong/ErrorKit.git", .upToNextMajor(from: "0.1.7")),
     ],
     targets: [
         .target(
             name: "Pretendard",
             dependencies: [
-                "ErrorKit"
+                "ErrorKit",
             ],
             resources: [
-                .process("Resources")
+                .process("Resources"),
             ]
         ),
         .testTarget(
             name: "PretendardTests",
             dependencies: [
-                "Pretendard"
+                "Pretendard",
             ]
-        )
+        ),
     ]
 )
