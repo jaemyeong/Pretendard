@@ -14,7 +14,7 @@ Pretendard은 [Pretendard](https://cactus.tistory.com/306) 1.3.3 버전 기반�
 ### Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/jaemyeong/Pretendard.git", .upToNextMajor(from: "0.2.0"))
+.package(url: "https://github.com/jaemyeong/Pretendard.git", .upToNextMajor(from: "0.2.1"))
 ```
 
 ## Usage
